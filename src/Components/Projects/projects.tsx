@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Projects.module.css';
 import { caveatFont } from '../font';
-import Image from 'next/image'
 import ProjectCard from './projects-card/ProjectCard';
 
 export default function Projects(){

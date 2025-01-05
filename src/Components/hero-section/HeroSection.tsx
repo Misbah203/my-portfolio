@@ -10,7 +10,6 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
-import Images from "next/image";
 import { motion} from "framer-motion";
 import {Typewriter} from "react-simple-typewriter";
 
@@ -18,7 +17,7 @@ export default function HeroSection(){
     return(
     <>
     <section className={`${styles.hero} ${interFont.className}`}>
-        <h1>Hey! I'm   {""}
+        <h1>Hey! I am   {""}
             <span>Misbah Qasim</span> {""}
            
            <motion.span style={{display:"inline-block",fontSize:"50px"}}
@@ -27,8 +26,8 @@ export default function HeroSection(){
            >
            👋
            </motion.span>
-            <br /><span> I'm </span>
-           <Typewriter  words={['Front-End Developer','Web Developer','UI/UX Designer']}
+            <br /><span> I am </span>
+           <Typewriter  words={['Front-End Developer','Web Developer','UI-UX Designer']}
            loop={Infinity}
            cursor={true}
            cursorStyle='_'

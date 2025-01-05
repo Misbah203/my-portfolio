@@ -48,7 +48,7 @@ const handleSubmit = async (e: React.FormEvent)=>{
       initial={{opacity:0,x:-100}}
       whileInView={{opacity:1, x:0}}
       transition={{duration:2,type:"spring"}}>
-                <p>Your business deserves a top-notch website that enhances your brand and drives growth. I specialize in custom web development tailored to your specific goals, whether it's e-commerce, content, or corporate sites. With a focus on user experience, mobile optimization, and SEO, I create websites that deliver results. Reach out today to get started on a website that works for you!
+                <p>Your business deserves a top-notch website that enhances your brand and drives growth. I specialize in custom web development tailored to your specific goals, whether its e-commerce, content, or corporate sites. With a focus on user experience, mobile optimization, and SEO, I create websites that deliver results. Reach out today to get started on a website that works for you!
                </p>
      </motion.div>
            <div className={styles.ContactBottom}>
