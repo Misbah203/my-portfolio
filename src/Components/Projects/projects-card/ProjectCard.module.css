@@ -1,0 +1,17 @@
+.Card{
+    display: flex;
+    flex-direction: column;
+}
+
+.CardImage{
+
+  height: 257px;
+  overflow: hidden;
+
+}
+
+.CardText {
+    height: auto;
+    margin-top: 4px;
+   padding-left: 2px;
+}

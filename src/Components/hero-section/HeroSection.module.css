@@ -1,0 +1,47 @@
+.hero{
+    width : 100%;
+    background-color: var(--background-black);
+    text-align: center;
+    padding-top: 7.688rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero h1{
+    margin-top: 7.4688rem;
+    font-size : 1.8987rem;
+    line-height: 3rem;
+}
+
+.hero h1 span{
+    color: var(--logo-color);
+}
+
+.hero p span{
+    color: var(--logo-color);
+}
+
+.hero p{
+    margin-top: 20px;
+    margin-bottom: 2.0313rem;
+}
+
+.socialIcons{
+    padding: .6875rem 1.6875rem;
+    display: inline-flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--logo-color);
+    border-radius: 26px;
+    margin: auto;
+    margin-top: 1.625rem;
+    margin-bottom: 8.125rem;
+}
+
+@media (max-width : 390px){
+    .socialIcons{
+        padding : 0px 5px;
+        gap : 20px ;
+    }
+}
